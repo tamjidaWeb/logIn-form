@@ -9,7 +9,7 @@ let title = document.getElementById('title');
 
 signinBtn.onclick = function(){
     nameField.style.maxHeight = '0';
-    title.innerHTML = 'Sign In';
+    title.innerText = 'Sign In';
     signupBtn.classList.add('disable');
     signinBtn.classList.remove('disable');
 }
